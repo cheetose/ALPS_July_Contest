@@ -41,7 +41,7 @@ ll lcm(ll a, ll b) { if (a == 0 || b == 0)return a + b; return a*(b / gcd(a, b))
 int dx[] = { 0,1,0,-1,1,1,-1,-1 }, dy[] = { 1,0,-1,0,1,-1,1,-1 };
 int ddx[]={2,2,-2,-2,1,1,-1,-1},ddy[]={1,-1,1,-1,2,-2,2,-2};
 
-int a[50][50],ans[50][50];
+int a[50][50];
 int main(){
 	int n,m;
 	scanf("%d%d",&n,&m);
